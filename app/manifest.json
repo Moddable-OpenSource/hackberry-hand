@@ -1,0 +1,96 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/examples/manifest_piu.json",
+		"$(MODDABLE)/modules/files/preference/manifest.json",
+	],
+	"creation": {
+		"stack": 400
+	},
+	"modules": {
+		"*": [
+			"./main",
+			"./assets",
+			"./screens",
+			"./gestures"
+		]
+	},
+	"preload": [
+		"main",
+		"assets",
+		"screens",
+		"gestures"
+	],
+	"platforms": {
+		"esp32": {
+			"include": [
+				"$(MODULES)/pins/servo/manifest.json"
+			],
+			"modules": {
+				"*": [
+					"./device/sensors"
+				],
+			},
+			"preload": "sensors"
+		},
+		"mac": {
+			"modules": {
+				"*": [
+					"./simulator/sensors"
+				]
+			},
+			"preload": "sensors"
+		}
+	},
+	"resources":{
+		"*-color": [
+			"./assets/scrubber"
+		],
+		"*-mask": [
+			"./fonts/open-sans-reg-12",
+			"./assets/back-arrow",
+			"./assets/fingers-hl",
+			"./assets/open-hand-thumb-in",
+			"./assets/preset-header-icon",
+			"./assets/thumb-hl",
+			"./assets/control-hand",
+			"./assets/fist",
+			"./assets/open-hand-thumb-out",
+			"./assets/setting-scrubber-border",
+			"./assets/thumb-sm",
+			"./assets/control-header-icon",
+			"./assets/grasp",
+			"./assets/other-fingers-sm",
+			"./assets/setting-scrubber-center",
+			"./assets/thumb-up",
+			"./assets/demo-header-icon",
+			"./assets/hand-sm",
+			"./assets/pinch",
+			"./assets/settings-icon",
+			"./assets/dotted-line",
+			"./assets/index-hl",
+			"./assets/point-thumb-in",
+			"./assets/slow",
+			"./assets/fast",
+			"./assets/index-sm",
+			"./assets/point-thumb-out",
+			"./assets/solid-line",
+			"./assets/control-icon",
+			"./assets/demo-icon",
+			"./assets/presets-icon",
+			"./assets/settings-header-icon",
+			"./assets/pause",
+			"./assets/play",
+			"./assets/point-thumb-out-med",
+			"./assets/point-thumb-in-med",
+			"./assets/fist-med",
+			"./assets/thumb-up-med",
+			"./assets/open-hand-thumb-out-med",
+			"./assets/open-hand-thumb-in-med",
+			"./assets/grasp-med",
+			"./assets/pinch-med",
+			"./assets/index-tap-strip",
+			"./assets/thumbs-up-strip-02"
+	   ]
+	}
+}

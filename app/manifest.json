@@ -40,6 +40,25 @@
 				]
 			},
 			"preload": "sensors"
+		},
+		"win": {
+			"modules": {
+				"*": [
+					"./simulator/sensors"
+				]
+			},
+			"preload": "sensors"
+		},
+		"lin": {
+			"modules": {
+				"*": [
+					"./simulator/sensors"
+				]
+			},
+			"preload": "sensors"
+		},
+		"...": {
+			"error": "unsupported platform"
 		}
 	},
 	"resources":{

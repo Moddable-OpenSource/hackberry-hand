@@ -3,19 +3,19 @@
 Copyright 2020 Moddable Tech, Inc.<BR>
 Revised: March 20, 2020
 
-This document contains assembly instructions for Moddable's Hackberry Hand project. This project replaces the standard Hackberry MK2 board with a Moddable Two.
+This document contains assembly instructions for Moddable's HACKberry Hand project. This project replaces the standard HACKberry MK2 board with a Moddable Two.
 
-### Step 1 - Build Hackberry hand
+### Step 1 - Build HACKberry hand
 
-We purchased the [Electrical/Mechanical Parts](https://docs.google.com/forms/d/e/1FAIpQLSdaEcsGY5w2Oz1cYvZdZzNj4Mi7tRnYp-7VutEzGSIOJbIaeg/viewform?entry.1210761575=0%E5%80%8B&entry.1614602865=0%E5%80%8B&entry.843753756=0%E5%80%8B&entry.1139159705=0%E5%80%8B&entry.1297755053=0%E5%80%8B&entry.201222397=0%E5%80%8B) from Hackberry and printed the open-source [hand parts](https://github.com/mission-arm/HACKberry) we needed with 3D printing vendor [Xometry](https://Xometry.com) in Nylon 12 using SLS technology.
+We purchased the [Electrical/Mechanical Parts](https://docs.google.com/forms/d/e/1FAIpQLSdaEcsGY5w2Oz1cYvZdZzNj4Mi7tRnYp-7VutEzGSIOJbIaeg/viewform?entry.1210761575=0%E5%80%8B&entry.1614602865=0%E5%80%8B&entry.843753756=0%E5%80%8B&entry.1139159705=0%E5%80%8B&entry.1297755053=0%E5%80%8B&entry.201222397=0%E5%80%8B) from HACKberry and printed the open-source [hand parts](https://github.com/mission-arm/HACKberry) we needed with 3D printing vendor [Xometry](https://Xometry.com) in Nylon 12 using SLS technology.
 
-Assemble the bottom part of the Hackberry hand following the instructions from Hackberry. An English version is available [here](./HACKberryHANDBOOK_100517_ver.7.1_en.pdf).
+Assemble the bottom part of the HACKberry hand following the instructions from HACKberry. An English version is available [here](./HACKberryHANDBOOK_100517_ver.7.1_en.pdf).
 
 ![hackberry top](images/hackberry-top-part.png)
 
 ### Step 2 - Build platform
 
-Create a platform to integrate the flat Moddable Two into the curvilinear form of the Hackberry. You can download the .svg file of our platform parts [here](./hackberry-platform.svg). We made our platform with .125" acrylic.
+Create a platform to integrate the flat Moddable Two into the curvilinear form of the HACKberry hand. You can download the .svg file of our platform parts [here](./hackberry-platform.svg). We made our platform with .125" acrylic.
 
 ![platform svg file](images/hackberry-platform.png)
 
@@ -27,7 +27,7 @@ Screw the platform onto the hand. The image below shows the final result.
 
 ![platform installed](images/platform-installed.png)
 
-> Note: The Hackberry 3d parts are open source and could be modified to support the Moddable Two. We decided that creating a platform of custom cut acrylic pieces would be fast and allow us to create a very low profile integration of the Moddable Two. We milled the parts on a Bantom Tools CNC, but they could be laser cut just as well.
+> Note: The HACKberry 3d parts are open source and could be modified to support the Moddable Two. We decided that creating a platform of custom cut acrylic pieces would be fast and allow us to create a very low profile integration of the Moddable Two. We milled the parts on a Bantom Tools CNC, but they could be laser cut just as well.
 
 ### Step 3 - Modify hand parts
 

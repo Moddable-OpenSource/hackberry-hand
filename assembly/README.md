@@ -7,7 +7,7 @@ This document contains assembly instructions for Moddable's Hackberry Hand proje
 
 ### Step 1 - Build Hackberry hand
 
-We purchased the [Electrical/Mechanical Parts] (https://docs.google.com/forms/d/e/1FAIpQLSdaEcsGY5w2Oz1cYvZdZzNj4Mi7tRnYp-7VutEzGSIOJbIaeg/viewform?entry.1210761575=0%E5%80%8B&entry.1614602865=0%E5%80%8B&entry.843753756=0%E5%80%8B&entry.1139159705=0%E5%80%8B&entry.1297755053=0%E5%80%8B&entry.201222397=0%E5%80%8B) from Hackberry and printed the open-source [hand parts](https://github.com/mission-arm/HACKberry) we needed with 3D printing vendor [Xometry] (https://Xometry.com) in Nylon 12 using SLS technology.
+We purchased the [Electrical/Mechanical Parts](https://docs.google.com/forms/d/e/1FAIpQLSdaEcsGY5w2Oz1cYvZdZzNj4Mi7tRnYp-7VutEzGSIOJbIaeg/viewform?entry.1210761575=0%E5%80%8B&entry.1614602865=0%E5%80%8B&entry.843753756=0%E5%80%8B&entry.1139159705=0%E5%80%8B&entry.1297755053=0%E5%80%8B&entry.201222397=0%E5%80%8B) from Hackberry and printed the open-source [hand parts](https://github.com/mission-arm/HACKberry) we needed with 3D printing vendor [Xometry](https://Xometry.com) in Nylon 12 using SLS technology.
 
 Assemble the bottom part of the Hackberry hand following the instructions from Hackberry. An English version is available [here](./HACKberryHANDBOOK_100517_ver.7.1_en.pdf).
 

@@ -1,15 +1,20 @@
 # Hackberry Hand Project
 
 Copyright 2020 Moddable Tech, Inc.<BR>
-Revised: March 4, 2020
+Revised: March 20, 2020
 
 ![](./assets/hand.jpg)
 
-This repository contains materials related to the Hackberry hand project by Moddable. <!--For video demonstrations and more information about this project, see [this blog post]().-->
+This repository contains materials related to the Hackberry hand project by Moddable.
 
-## Instructions
+- The [`assembly`](./assembly) directory contains instructions to assemble the hand
+- The [`app`](./app) directory contains the source code for the application
 
-You can run the Hackberry hand application on an actual device or on the Moddable hardware simulator. Instructions for each target platform are provided below.
+<!--For video demonstrations and more information about this project, see [this blog post]().-->
+
+## Software Instructions
+
+You can run the Hackberry hand application on an actual device or on the Moddable hardware simulator. Instructions to run the application on each target platform are provided below.
 
 ### Device
 

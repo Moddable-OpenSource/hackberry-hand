@@ -2,7 +2,7 @@
 	"include": [
 		"$(MODDABLE)/examples/manifest_base.json",
 		"$(MODDABLE)/examples/manifest_piu.json",
-		"$(MODDABLE)/modules/files/preference/manifest.json",
+		"$(MODDABLE)/modules/files/preference/manifest.json"
 	],
 	"creation": {
 		"stack": 400
@@ -29,7 +29,7 @@
 			"modules": {
 				"*": [
 					"./device/sensors"
-				],
+				]
 			},
 			"preload": "sensors"
 		},
